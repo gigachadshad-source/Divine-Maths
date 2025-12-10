@@ -2479,3 +2479,715 @@ designed to comprehensively map, analyze, and reconstruct the entire
 │                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+## A.11 DOMAIN: ADVANCED INTERCONNECTED CONCEPTS [DOM-011]
+
+### A.11.1 COMPLETE ONTOLOGICAL DECOMPOSITION
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              ADVANCED INTERCONNECTED CONCEPTS [DOM-011]                     │
+│            "Cross-Domain Mathematical Integration"                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │ SUBDOMAIN A.11.1: LINEAR PROGRAMMING                                 │   │
+│  ├──────────────────────────────────────────────────────────────────────┤   │
+│  │                                                                       │   │
+│  │  CHAPTER: Linear Programming                                          │   │
+│  │  ├── CONCEPT: Problem Formulation                                    │   │
+│  │  │   ├── MICRO-SKILL: Objective function identification              │   │
+│  │  │   ├── MICRO-SKILL: Constraint formulation                         │   │
+│  │  │   └── MICRO-SKILL: Non-negativity restrictions                    │   │
+│  │  │                                                                    │   │
+│  │  ├── CONCEPT: Graphical Method                                       │   │
+│  │  │   ├── MICRO-SKILL: Feasible region identification                 │   │
+│  │  │   │   ├── COGNITIVE: Analyze (L4)                                 │   │
+│  │  │   │   ├── OBJECTIVE: Find region satisfying all constraints       │   │
+│  │  │   │   └── APPLICATION: Optimization problems                      │   │
+│  │  │   ├── MICRO-SKILL: Corner point method                            │   │
+│  │  │   └── MICRO-SKILL: Optimal solution determination                 │   │
+│  │  │                                                                    │   │
+│  │  └── CONCEPT: Types of LP Problems                                   │   │
+│  │      ├── MICRO-SKILL: Manufacturing problems                         │   │
+│  │      ├── MICRO-SKILL: Diet problems                                  │   │
+│  │      └── MICRO-SKILL: Transportation problems                        │   │
+│  │                                                                       │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │ SUBDOMAIN A.11.2: VECTORS AND 3D GEOMETRY                            │   │
+│  ├──────────────────────────────────────────────────────────────────────┤   │
+│  │                                                                       │   │
+│  │  CHAPTER: Vectors                                                     │   │
+│  │  ├── CONCEPT: Vector Fundamentals                                    │   │
+│  │  │   ├── SUBCONCEPT: Vector representation                           │   │
+│  │  │   │   ├── MICRO-SKILL: Magnitude and direction                    │   │
+│  │  │   │   ├── MICRO-SKILL: Position vectors                           │   │
+│  │  │   │   └── MICRO-SKILL: Unit vectors (î, ĵ, k̂)                     │   │
+│  │  │   └── SUBCONCEPT: Vector operations                               │   │
+│  │  │       ├── MICRO-SKILL: Addition and subtraction                   │   │
+│  │  │       ├── MICRO-SKILL: Scalar multiplication                      │   │
+│  │  │       └── MICRO-SKILL: Component form                             │   │
+│  │  │                                                                    │   │
+│  │  ├── CONCEPT: Products of Vectors                                    │   │
+│  │  │   ├── SUBCONCEPT: Scalar (dot) product                            │   │
+│  │  │   │   ├── MICRO-SKILL: a⃗ · b⃗ = |a⃗||b⃗|cos θ                        │   │
+│  │  │   │   │   ├── COGNITIVE: Apply (L3)                               │   │
+│  │  │   │   │   ├── OBJECTIVE: Calculate dot product                    │   │
+│  │  │   │   │   └── APPLICATION: Work, projection                       │   │
+│  │  │   │   └── MICRO-SKILL: Properties and applications                │   │
+│  │  │   └── SUBCONCEPT: Vector (cross) product                          │   │
+│  │  │       ├── MICRO-SKILL: a⃗ × b⃗ = |a⃗||b⃗|sin θ n̂                     │   │
+│  │  │       │   ├── COGNITIVE: Apply (L3)                               │   │
+│  │  │       │   ├── OBJECTIVE: Calculate cross product                  │   │
+│  │  │       │   └── APPLICATION: Area, torque                           │   │
+│  │  │       └── MICRO-SKILL: Properties and applications                │   │
+│  │  │                                                                    │   │
+│  │  CHAPTER: Three-Dimensional Geometry                                  │   │
+│  │  ├── CONCEPT: 3D Coordinate System                                   │   │
+│  │  │   ├── MICRO-SKILL: Coordinates of a point                         │   │
+│  │  │   ├── MICRO-SKILL: Distance formula in 3D                         │   │
+│  │  │   └── MICRO-SKILL: Section formula in 3D                          │   │
+│  │  │                                                                    │   │
+│  │  ├── CONCEPT: Direction Cosines and Ratios                           │   │
+│  │  │   ├── MICRO-SKILL: Direction cosines (l, m, n)                    │   │
+│  │  │   └── MICRO-SKILL: Direction ratios                               │   │
+│  │  │                                                                    │   │
+│  │  ├── CONCEPT: Lines in 3D                                            │   │
+│  │  │   ├── MICRO-SKILL: Vector equation of line                        │   │
+│  │  │   ├── MICRO-SKILL: Cartesian equation                             │   │
+│  │  │   └── MICRO-SKILL: Angle between lines                            │   │
+│  │  │                                                                    │   │
+│  │  └── CONCEPT: Planes                                                 │   │
+│  │      ├── MICRO-SKILL: Vector equation of plane                       │   │
+│  │      ├── MICRO-SKILL: Cartesian equation                             │   │
+│  │      ├── MICRO-SKILL: Angle between planes                           │   │
+│  │      └── MICRO-SKILL: Distance of point from plane                   │   │
+│  │                                                                       │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│  ┌──────────────────────────────────────────────────────────────────────┐   │
+│  │ SUBDOMAIN A.11.3: MATHEMATICAL MODELING                              │   │
+│  ├──────────────────────────────────────────────────────────────────────┤   │
+│  │                                                                       │   │
+│  │  CHAPTER: Mathematical Modeling                                       │   │
+│  │  ├── CONCEPT: Model Building                                         │   │
+│  │  │   ├── MICRO-SKILL: Problem identification                         │   │
+│  │  │   ├── MICRO-SKILL: Variable definition                            │   │
+│  │  │   ├── MICRO-SKILL: Relationship formulation                       │   │
+│  │  │   └── MICRO-SKILL: Solution interpretation                        │   │
+│  │  │                                                                    │   │
+│  │  └── CONCEPT: Types of Models                                        │   │
+│  │      ├── MICRO-SKILL: Growth and decay models                        │   │
+│  │      ├── MICRO-SKILL: Population models                              │   │
+│  │      └── MICRO-SKILL: Economic models                                │   │
+│  │                                                                       │   │
+│  └──────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# ════════════════════════════════════════════════════════════════════════════════
+# SECTION B: CLASS-WISE AGGREGATED MATRIX
+# ════════════════════════════════════════════════════════════════════════════════
+
+## B.1 VERTICAL PROGRESSION FRAMEWORK
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│              CLASS-WISE MATHEMATICAL CONCEPT DISTRIBUTION                   │
+│                    FOUNDATION → MASTERY PATHWAYS                            │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                          PRIMARY LEVEL (1-5)                                │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                                                                             │
+│  CLASS 1                                                                    │
+│  ├── NUMBERS: Counting 1-100, Number names, Comparison                     │
+│  ├── OPERATIONS: Addition/Subtraction within 20 (concrete)                 │
+│  ├── SHAPES: 2D shapes recognition (circle, square, triangle, rectangle)   │
+│  ├── MEASUREMENT: Length comparison, Time (days, months)                   │
+│  ├── PATTERNS: Simple patterns, Sequences                                  │
+│  └── DATA: Picture interpretation                                          │
+│                                                                             │
+│  CLASS 2                                                                    │
+│  ├── NUMBERS: Numbers to 999, Place value (H, T, O)                        │
+│  ├── OPERATIONS: Addition/Subtraction with carrying/borrowing              │
+│  ├── MULTIPLICATION: Skip counting, Tables 2, 5, 10                        │
+│  ├── SHAPES: 3D shapes introduction (cube, sphere, cylinder)               │
+│  ├── MEASUREMENT: Standard units (cm, m), Time (clock reading)             │
+│  ├── MONEY: Coins, simple transactions                                     │
+│  └── DATA: Tally marks, Simple tables                                      │
+│                                                                             │
+│  CLASS 3                                                                    │
+│  ├── NUMBERS: Numbers to 9999, Expanded form                               │
+│  ├── OPERATIONS: All four operations, Word problems                        │
+│  ├── MULTIPLICATION: Tables 2-10, Properties                               │
+│  ├── FRACTIONS: Introduction (halves, quarters, thirds)                    │
+│  ├── GEOMETRY: Lines, angles introduction, Symmetry                        │
+│  ├── MEASUREMENT: kg/g, L/mL, Perimeter introduction                       │
+│  └── DATA: Bar graphs, Pictographs                                         │
+│                                                                             │
+│  CLASS 4                                                                    │
+│  ├── NUMBERS: Numbers to 99999, Roman numerals                             │
+│  ├── OPERATIONS: Multi-digit operations, Order of operations               │
+│  ├── FACTORS: Factors, Multiples, Prime numbers introduction               │
+│  ├── FRACTIONS: Equivalent fractions, Like fractions operations            │
+│  ├── DECIMALS: Introduction (tenths), Money connection                     │
+│  ├── GEOMETRY: Angles (types), Perpendicular/Parallel lines                │
+│  ├── MENSURATION: Area introduction, Perimeter formulas                    │
+│  └── PATTERNS: Advanced patterns, Algebraic thinking introduction          │
+│                                                                             │
+│  CLASS 5                                                                    │
+│  ├── NUMBERS: Large numbers (lakhs, crores), Rounding                      │
+│  ├── OPERATIONS: BODMAS, Long division                                     │
+│  ├── FACTORS: HCF, LCM introduction                                        │
+│  ├── FRACTIONS: Unlike fractions, Mixed numbers operations                 │
+│  ├── DECIMALS: All operations, Decimal-fraction conversion                 │
+│  ├── PERCENTAGES: Introduction, Simple calculations                        │
+│  ├── GEOMETRY: Triangles (classification), Quadrilaterals                  │
+│  ├── MENSURATION: Area formulas (rectangle, triangle), Volume introduction │
+│  └── DATA: Double bar graphs, Pie chart introduction                       │
+│                                                                             │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                        MIDDLE SCHOOL (6-8)                                  │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                                                                             │
+│  CLASS 6                                                                    │
+│  ├── NUMBERS: Integers introduction, Number line                           │
+│  ├── ARITHMETIC: Ratio and Proportion, Unitary method                      │
+│  ├── ALGEBRA: Introduction to variables, Simple equations                  │
+│  ├── FRACTIONS: All operations, Decimal operations                         │
+│  ├── GEOMETRY: Basic concepts, Symmetry, Construction                      │
+│  ├── MENSURATION: Perimeter/Area of regular shapes                         │
+│  └── DATA HANDLING: Bar graphs, Mean introduction                          │
+│                                                                             │
+│  CLASS 7                                                                    │
+│  ├── INTEGERS: Operations on integers, Properties                          │
+│  ├── FRACTIONS & DECIMALS: Complex operations                              │
+│  ├── RATIONAL NUMBERS: Introduction                                        │
+│  ├── EXPONENTS: Introduction, Laws                                         │
+│  ├── ALGEBRA: Expressions, Simple equations                                │
+│  ├── GEOMETRY: Lines and angles, Triangle properties                       │
+│  ├── CONGRUENCE: Introduction                                              │
+│  ├── MENSURATION: Area of complex figures, Volume                          │
+│  └── DATA: Mean, Median, Mode introduction                                 │
+│                                                                             │
+│  CLASS 8                                                                    │
+│  ├── RATIONAL NUMBERS: Properties, Operations                              │
+│  ├── EXPONENTS: Negative exponents, Laws application                       │
+│  ├── SQUARES & CUBES: Square roots, Cube roots                             │
+│  ├── ALGEBRA: Polynomials, Factorization, Linear equations                 │
+│  ├── GEOMETRY: Quadrilaterals, Construction                                │
+│  ├── MENSURATION: Surface area and volume of 3D shapes                     │
+│  ├── DATA: Grouped data, Histograms, Pie charts                            │
+│  ├── PROBABILITY: Introduction                                             │
+│  └── DIRECT & INVERSE PROPORTION: Applications                             │
+│                                                                             │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                        SECONDARY (9-10)                                     │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                                                                             │
+│  CLASS 9                                                                    │
+│  ├── NUMBER SYSTEMS: Real numbers, Irrational numbers                      │
+│  ├── POLYNOMIALS: Operations, Remainder theorem, Factorization             │
+│  ├── COORDINATE GEOMETRY: Cartesian plane, Distance formula                │
+│  ├── LINEAR EQUATIONS: Two variables, Graphical method                     │
+│  ├── GEOMETRY: Euclid's geometry, Lines and angles, Triangles              │
+│  ├── QUADRILATERALS: Properties, Mid-point theorem                         │
+│  ├── CIRCLES: Basic properties, Chords, Arcs                               │
+│  ├── CONSTRUCTIONS: Basic constructions                                    │
+│  ├── MENSURATION: Heron's formula, Surface area & volume                   │
+│  ├── STATISTICS: Mean, Median, Mode of grouped data                        │
+│  └── PROBABILITY: Classical definition, Experimental probability           │
+│                                                                             │
+│  CLASS 10                                                                   │
+│  ├── REAL NUMBERS: Euclid's division, Fundamental theorem                  │
+│  ├── POLYNOMIALS: Zeros, Division algorithm                                │
+│  ├── LINEAR EQUATIONS: Pair of equations, Methods of solution              │
+│  ├── QUADRATIC EQUATIONS: Factorization, Quadratic formula                 │
+│  ├── ARITHMETIC PROGRESSIONS: nth term, Sum of n terms                     │
+│  ├── COORDINATE GEOMETRY: Section formula, Area of triangle                │
+│  ├── TRIANGLES: Similarity, BPT, Pythagoras theorem                        │
+│  ├── CIRCLES: Tangent properties, Theorems                                 │
+│  ├── CONSTRUCTIONS: Division of line, Tangent construction                 │
+│  ├── TRIGONOMETRY: Ratios, Identities, Applications                        │
+│  ├── MENSURATION: Surface area & volume combinations                       │
+│  ├── STATISTICS: Grouped data, Cumulative frequency, Ogive                 │
+│  └── PROBABILITY: Classical probability, Events                            │
+│                                                                             │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                     SENIOR SECONDARY (11-12)                                │
+│  ════════════════════════════════════════════════════════════════════════   │
+│                                                                             │
+│  CLASS 11                                                                   │
+│  ├── SETS: Types, Operations, Venn diagrams                                │
+│  ├── RELATIONS & FUNCTIONS: Types, Graphs                                  │
+│  ├── TRIGONOMETRY: Functions, Identities, Graphs, Equations                │
+│  ├── COMPLEX NUMBERS: Operations, Argand plane                             │
+│  ├── LINEAR INEQUALITIES: Graphical solutions                              │
+│  ├── PERMUTATIONS & COMBINATIONS: Formulas, Applications                   │
+│  ├── BINOMIAL THEOREM: Expansion, General term                             │
+│  ├── SEQUENCES & SERIES: AP, GP, Special series                            │
+│  ├── STRAIGHT LINES: All forms of equations                                │
+│  ├── CONIC SECTIONS: Circle, Parabola, Ellipse, Hyperbola                  │
+│  ├── 3D GEOMETRY: Introduction, Direction cosines                          │
+│  ├── LIMITS & DERIVATIVES: Introduction, Basic differentiation             │
+│  ├── STATISTICS: Measures of dispersion, Variance, SD                      │
+│  └── PROBABILITY: Random experiments, Addition theorem                     │
+│                                                                             │
+│  CLASS 12                                                                   │
+│  ├── RELATIONS & FUNCTIONS: Types, Inverse functions                       │
+│  ├── INVERSE TRIGONOMETRY: Functions, Properties                           │
+│  ├── MATRICES: Types, Operations, Inverse                                  │
+│  ├── DETERMINANTS: Properties, Applications                                │
+│  ├── CONTINUITY & DIFFERENTIABILITY: Theorems, Applications                │
+│  ├── DERIVATIVES: Higher order, Implicit, Parametric                       │
+│  ├── APPLICATIONS OF DERIVATIVES: Rate of change, Maxima/Minima            │
+│  ├── INTEGRALS: Indefinite, Definite, Properties                           │
+│  ├── APPLICATIONS OF INTEGRALS: Area under curves                          │
+│  ├── DIFFERENTIAL EQUATIONS: Formation, Solution methods                   │
+│  ├── VECTORS: Algebra, Products, Applications                              │
+│  ├── 3D GEOMETRY: Lines, Planes                                            │
+│  ├── LINEAR PROGRAMMING: Graphical method, Applications                    │
+│  └── PROBABILITY: Conditional, Bayes, Distributions                        │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## B.2 DOMAIN-CLASS MAPPING MATRIX
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                    CONCEPT-CLASS COVERAGE MATRIX                                                 │
+├───────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────┤
+│                       │                              CLASS LEVEL                                                 │
+│ DOMAIN                ├───┬───┬───┬───┬───┬───┬───┬───┬───┬────┬────┬────┤
+│                       │ 1 │ 2 │ 3 │ 4 │ 5 │ 6 │ 7 │ 8 │ 9 │ 10 │ 11 │ 12 │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ ARITHMETIC            │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ○ │ ○  │ ○  │ ○  │
+│ - Basic Operations    │ ■ │ ■ │ ■ │ ■ │ ■ │ ▪ │ ▪ │ ▪ │   │    │    │    │
+│ - Fractions           │   │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │   │    │    │    │
+│ - Decimals            │   │   │ ○ │ ● │ ● │ ● │ ● │ ● │   │    │    │    │
+│ - Percentages         │   │   │   │ ○ │ ● │ ● │ ● │ ● │   │    │    │    │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ ALGEBRA               │   │   │ ○ │ ○ │ ○ │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Expressions         │   │   │   │ ○ │ ○ │ ● │ ● │ ● │ ● │ ●  │ ▪  │ ▪  │
+│ - Linear Equations    │   │   │   │   │ ○ │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Quadratic Equations │   │   │   │   │   │   │   │ ○ │ ○ │ ●  │ ●  │ ●  │
+│ - Polynomials         │   │   │   │   │   │   │   │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Sequences           │   │   │   │   │   │   │   │   │   │ ●  │ ●  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ GEOMETRY              │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Basic Shapes        │ ■ │ ■ │ ■ │ ▪ │ ▪ │   │   │   │   │    │    │    │
+│ - Lines & Angles      │   │ ○ │ ○ │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │ ●  │
+│ - Triangles           │   │   │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Quadrilaterals      │   │   │   │ ○ │ ● │ ● │ ● │ ● │ ● │ ●  │    │    │
+│ - Circles             │   │   │   │   │ ○ │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Coordinate Geometry │   │   │   │   │   │   │   │   │ ● │ ●  │ ●  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ TRIGONOMETRY          │   │   │   │   │   │   │   │   │   │ ●  │ ●  │ ●  │
+│ - Basic Ratios        │   │   │   │   │   │   │   │   │   │ ●  │ ●  │ ●  │
+│ - Identities          │   │   │   │   │   │   │   │   │   │ ●  │ ●  │ ●  │
+│ - Applications        │   │   │   │   │   │   │   │   │   │ ●  │ ●  │ ●  │
+│ - Inverse Functions   │   │   │   │   │   │   │   │   │   │    │ ○  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ MENSURATION           │   │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ○  │ ○  │
+│ - Perimeter/Area (2D) │   │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │    │    │
+│ - Surface Area (3D)   │   │   │   │   │ ○ │ ● │ ● │ ● │ ● │ ●  │    │    │
+│ - Volume              │   │   │   │   │ ○ │ ● │ ● │ ● │ ● │ ●  │ ○  │ ○  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ NUMBER SYSTEMS        │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Natural/Whole       │ ■ │ ■ │ ■ │ ▪ │ ▪ │   │   │   │   │    │    │    │
+│ - Integers            │   │   │   │   │   │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Rationals           │   │   │   │   │   │   │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Real Numbers        │   │   │   │   │   │   │   │   │ ● │ ●  │ ●  │ ●  │
+│ - Complex Numbers     │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ STATISTICS            │ ○ │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Data Representation │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Central Tendency    │   │   │   │   │   │ ○ │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Dispersion          │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ PROBABILITY           │   │   │   │   │   │   │   │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Classical           │   │   │   │   │   │   │   │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Conditional         │   │   │   │   │   │   │   │   │   │    │ ○  │ ●  │
+│ - Distributions       │   │   │   │   │   │   │   │   │   │    │   │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ CALCULUS              │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Limits              │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Differentiation     │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Integration         │   │   │   │   │   │   │   │   │   │    │   │ ●  │
+│ - Differential Eqs    │   │   │   │   │   │   │   │   │   │    │   │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ REASONING & LOGIC     │ ○ │ ○ │ ● │ ● │ ● │ ● │ ● │ ● │ ● │ ●  │ ●  │ ●  │
+│ - Sets                │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Relations/Functions │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Matrices/Det        │   │   │   │   │   │   │   │   │   │    │   │ ●  │
+│ - Permutations/Comb   │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+├───────────────────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼────┼────┼────┤
+│ ADVANCED TOPICS       │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Vectors             │   │   │   │   │   │   │   │   │   │    │ ○  │ ●  │
+│ - 3D Geometry         │   │   │   │   │   │   │   │   │   │    │ ●  │ ●  │
+│ - Linear Programming  │   │   │   │   │   │   │   │   │   │    │   │ ●  │
+└───────────────────────┴───┴───┴───┴───┴───┴───┴───┴───┴───┴────┴────┴────┘
+
+LEGEND:
+  ■ = Primary focus (mastery expected)
+  ● = Major content (significant coverage)
+  ▪ = Review/reinforcement
+  ○ = Introduction (foundation building)
+  (blank) = Not applicable at this level
+```
+
+## B.3 SKILL DEPENDENCY CHAINS
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    CONCEPT DEPENDENCY CHAINS                                │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ARITHMETIC → ALGEBRA CHAIN                                                 │
+│  ═══════════════════════════════                                            │
+│  Counting → Addition → Multiplication → Variables → Expressions →           │
+│  Equations → Quadratics → Polynomials → Functions → Calculus                │
+│                                                                             │
+│  GEOMETRY → TRIGONOMETRY CHAIN                                              │
+│  ══════════════════════════════════                                         │
+│  Shapes → Angles → Triangles → Similarity → Right Triangle →                │
+│  Trig Ratios → Identities → Functions → Inverse Trig                        │
+│                                                                             │
+│  NUMBER SYSTEMS EVOLUTION                                                   │
+│  ═══════════════════════════                                                │
+│  Natural → Whole → Integers → Fractions → Decimals → Rationals →            │
+│  Irrationals → Real Numbers → Complex Numbers                               │
+│                                                                             │
+│  STATISTICS → PROBABILITY CHAIN                                             │
+│  ══════════════════════════════════                                         │
+│  Data Collection → Organization → Graphs → Central Tendency →               │
+│  Dispersion → Probability → Conditional Prob → Distributions                │
+│                                                                             │
+│  MENSURATION PROGRESSION                                                    │
+│  ═════════════════════════                                                  │
+│  Length → Perimeter → Area (2D) → Surface Area (3D) → Volume →              │
+│  Integration for Area/Volume                                                │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# ════════════════════════════════════════════════════════════════════════════════
+# SECTION C: CIA-STYLE KNOWLEDGE GRAPHS (ASCII VISUALS)
+# ════════════════════════════════════════════════════════════════════════════════
+
+## C.1 MASTER DOMAIN HIERARCHY
+
+```
+                            ┌──────────────────────────┐
+                            │   MATHEMATICS SYSTEM     │
+                            │      NCERT K-12          │
+                            └───────────┬──────────────┘
+                                        │
+        ┌───────────────────────────────┼───────────────────────────────┐
+        │                               │                               │
+        ▼                               ▼                               ▼
+┌───────────────┐               ┌───────────────┐               ┌───────────────┐
+│   QUANTITY    │               │    SPACE      │               │   CHANGE      │
+│   DOMAIN      │               │    DOMAIN     │               │   DOMAIN      │
+└───────┬───────┘               └───────┬───────┘               └───────┬───────┘
+        │                               │                               │
+        ├── Arithmetic                  ├── Geometry                    ├── Calculus
+        ├── Algebra                     ├── Trigonometry                ├── Differential Eqs
+        ├── Number Systems              ├── Mensuration                 └── Functions
+        └── Sequences                   └── Coordinate Geometry
+                                        
+        ┌───────────────────────────────┼───────────────────────────────┐
+        │                               │                               │
+        ▼                               ▼                               ▼
+┌───────────────┐               ┌───────────────┐               ┌───────────────┐
+│  UNCERTAINTY  │               │   STRUCTURE   │               │ INTERCONNECT  │
+│   DOMAIN      │               │   DOMAIN      │               │   DOMAIN      │
+└───────┬───────┘               └───────┬───────┘               └───────┬───────┘
+        │                               │                               │
+        ├── Statistics                  ├── Sets & Logic                ├── Linear Programming
+        └── Probability                 ├── Matrices                    ├── Vectors
+                                        └── Combinatorics               └── Mathematical Modeling
+```
+
+## C.2 LAYERED TREE DIAGRAM - ALGEBRA DOMAIN
+
+```
+                                    ALGEBRA
+                                       │
+           ┌───────────────────────────┼───────────────────────────┐
+           │                           │                           │
+           ▼                           ▼                           ▼
+    ┌─────────────┐             ┌─────────────┐             ┌─────────────┐
+    │ EXPRESSIONS │             │  EQUATIONS  │             │  FUNCTIONS  │
+    └──────┬──────┘             └──────┬──────┘             └──────┬──────┘
+           │                           │                           │
+    ┌──────┼──────┐             ┌──────┼──────┐             ┌──────┼──────┐
+    │      │      │             │      │      │             │      │      │
+    ▼      ▼      ▼             ▼      ▼      ▼             ▼      ▼      ▼
+ Terms  Poly   Factor       Linear Quad  Systems      Domain Range Graph
+   │    nomials  ization       │      │      │           │      │      │
+   │       │       │           │      │      │           │      │      │
+   ▼       ▼       ▼           ▼      ▼      ▼           ▼      ▼      ▼
+┌─────┐ ┌─────┐ ┌─────┐   ┌─────┐ ┌─────┐ ┌─────┐   ┌─────┐ ┌─────┐ ┌─────┐
+│Mono │ │Bino │ │Ident│   │1-var│ │Roots│ │Subst│   │Input│ │Output│ │Plot │
+│mial │ │mial │ │ities│   │     │ │     │ │Elim │   │Set  │ │Set   │ │Points│
+└─────┘ └─────┘ └─────┘   └─────┘ └─────┘ └─────┘   └─────┘ └─────┘ └─────┘
+```
+
+## C.3 ORG-STRUCTURE HIERARCHY - GEOMETRY
+
+```
+                            ╔════════════════════════╗
+                            ║      GEOMETRY          ║
+                            ║   Chief Domain Officer ║
+                            ╚═══════════╤════════════╝
+                                        │
+        ┌───────────────────────────────┼───────────────────────────────┐
+        │                               │                               │
+╔═══════╧═══════╗               ╔═══════╧═══════╗               ╔═══════╧═══════╗
+║   EUCLIDEAN   ║               ║  ANALYTICAL   ║               ║   APPLIED     ║
+║   Division    ║               ║   Division    ║               ║   Division    ║
+╚═══════╤═══════╝               ╚═══════╤═══════╝               ╚═══════╤═══════╝
+        │                               │                               │
+   ┌────┼────┐                     ┌────┼────┐                     ┌────┼────┐
+   │    │    │                     │    │    │                     │    │    │
+   ▼    ▼    ▼                     ▼    ▼    ▼                     ▼    ▼    ▼
+┌─────┐┌─────┐┌─────┐         ┌─────┐┌─────┐┌─────┐         ┌─────┐┌─────┐┌─────┐
+│Point││Lines││Plane│         │Coord││Lines││Conics│        │Const││Trans││Proof│
+│Lines││Angle││Solid│         │System││Eqs ││      │        │ruct ││form ││     │
+└─────┘└─────┘└─────┘         └─────┘└─────┘└─────┘         └─────┘└─────┘└─────┘
+   │       │      │              │       │      │              │       │      │
+   ▼       ▼      ▼              ▼       ▼      ▼              ▼       ▼      ▼
+┌─────┐┌─────┐┌─────┐         ┌─────┐┌─────┐┌─────┐         ┌─────┐┌─────┐┌─────┐
+│Triang│Quadri│3D   │         │Distance│Slope│Circle│       │Bisect│Rotation│Direct│
+│les  ││later││Geom │         │Formula ││    │Parab │       │ors  ││Reflect ││Indir │
+└─────┘└─────┘└─────┘         └─────┘└─────┘└─────┘         └─────┘└─────┘└─────┘
+```
+
+## C.4 DEPENDENCY GRAPH - CALCULUS PREREQUISITES
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                     CALCULUS DEPENDENCY GRAPH                               │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│    Level 1 (Prerequisites)                                                  │
+│    ═══════════════════════                                                  │
+│    ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐                   │
+│    │ Algebra  │  │ Functions│  │ Trig     │  │ Geometry │                   │
+│    │ Skills   │  │ Concepts │  │ Functions│  │ Concepts │                   │
+│    └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘                   │
+│         │             │             │             │                         │
+│         └─────────────┴─────────────┴─────────────┘                         │
+│                               │                                             │
+│                               ▼                                             │
+│    Level 2 (Foundation)                                                     │
+│    ════════════════════                                                     │
+│                    ┌────────────────┐                                       │
+│                    │     LIMITS     │                                       │
+│                    │  (Foundation)  │                                       │
+│                    └───────┬────────┘                                       │
+│                            │                                                │
+│              ┌─────────────┼─────────────┐                                  │
+│              │             │             │                                  │
+│              ▼             ▼             ▼                                  │
+│         ┌─────────┐  ┌─────────┐  ┌─────────────┐                           │
+│         │One-sided│  │ Limit   │  │ Continuity  │                           │
+│         │ Limits  │  │ Laws    │  │ Definition  │                           │
+│         └────┬────┘  └────┬────┘  └──────┬──────┘                           │
+│              │            │              │                                  │
+│              └────────────┴──────────────┘                                  │
+│                            │                                                │
+│                            ▼                                                │
+│    Level 3 (Core Calculus)                                                  │
+│    ═══════════════════════                                                  │
+│              ┌─────────────────────────────────┐                            │
+│              │        DIFFERENTIATION          │                            │
+│              └───────────────┬─────────────────┘                            │
+│                              │                                              │
+│         ┌────────────────────┼────────────────────┐                         │
+│         │                    │                    │                         │
+│         ▼                    ▼                    ▼                         │
+│    ┌─────────┐         ┌─────────┐         ┌─────────────┐                  │
+│    │  Basic  │         │  Chain  │         │ Applications│                  │
+│    │  Rules  │         │  Rule   │         │  (Max/Min)  │                  │
+│    └─────────┘         └─────────┘         └─────────────┘                  │
+│                              │                                              │
+│                              ▼                                              │
+│              ┌─────────────────────────────────┐                            │
+│              │         INTEGRATION             │                            │
+│              └───────────────┬─────────────────┘                            │
+│                              │                                              │
+│         ┌────────────────────┼────────────────────┐                         │
+│         │                    │                    │                         │
+│         ▼                    ▼                    ▼                         │
+│    ┌─────────┐         ┌─────────┐         ┌─────────────┐                  │
+│    │Indefinite│        │ Definite│         │ Applications│                  │
+│    │Integrals│         │Integrals│         │  (Area)     │                  │
+│    └─────────┘         └─────────┘         └─────────────┘                  │
+│                              │                                              │
+│                              ▼                                              │
+│    Level 4 (Advanced)                                                       │
+│    ══════════════════                                                       │
+│              ┌─────────────────────────────────┐                            │
+│              │   DIFFERENTIAL EQUATIONS        │                            │
+│              └─────────────────────────────────┘                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## C.5 MODULAR BLUEPRINT LAYOUT - NUMBER SYSTEMS
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                     NUMBER SYSTEMS ARCHITECTURE                             │
+│                     (Future-House Blueprint Style)                          │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│   ┌─────────────────────────────────────────────────────────────────────┐   │
+│   │                    COMPLEX NUMBERS (ℂ)                              │   │
+│   │   ┌─────────────────────────────────────────────────────────────┐   │   │
+│   │   │                  REAL NUMBERS (ℝ)                           │   │   │
+│   │   │   ┌────────────────────────┬────────────────────────────┐   │   │   │
+│   │   │   │   RATIONAL (ℚ)         │     IRRATIONAL             │   │   │   │
+│   │   │   │   ┌────────────────┐   │   ┌────────────────────┐   │   │   │   │
+│   │   │   │   │  INTEGERS (ℤ)  │   │   │  √2, √3, π, e      │   │   │   │   │
+│   │   │   │   │  ┌──────────┐  │   │   │  Non-terminating   │   │   │   │   │
+│   │   │   │   │  │ WHOLE (W)│  │   │   │  Non-repeating     │   │   │   │   │
+│   │   │   │   │  │ ┌──────┐ │  │   │   │  Decimals          │   │   │   │   │
+│   │   │   │   │  │ │ ℕ    │ │  │   │   └────────────────────┘   │   │   │   │
+│   │   │   │   │  │ │1,2,3 │ │  │   │                            │   │   │   │
+│   │   │   │   │  │ │...   │ │  │   │                            │   │   │   │
+│   │   │   │   │  │ └──────┘ │  │   │                            │   │   │   │
+│   │   │   │   │  │ + Zero   │  │   │                            │   │   │   │
+│   │   │   │   │  └──────────┘  │   │                            │   │   │   │
+│   │   │   │   │  + Negatives   │   │                            │   │   │   │
+│   │   │   │   └────────────────┘   │                            │   │   │   │
+│   │   │   │   + Fractions (p/q)    │                            │   │   │   │
+│   │   │   └────────────────────────┴────────────────────────────┘   │   │   │
+│   │   │                                                             │   │   │
+│   │   └─────────────────────────────────────────────────────────────┘   │   │
+│   │   + Imaginary component (bi)                                        │   │
+│   └─────────────────────────────────────────────────────────────────────┘   │
+│                                                                             │
+│   LEGEND: ℕ ⊂ W ⊂ ℤ ⊂ ℚ ⊂ ℝ ⊂ ℂ                                            │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## C.6 DATA-FLOW CURRICULUM MAPPING
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    CURRICULUM DATA-FLOW DIAGRAM                             │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│    INPUT                    PROCESS                      OUTPUT             │
+│    ═════                    ═══════                      ══════             │
+│                                                                             │
+│  ┌─────────┐           ┌─────────────────┐           ┌─────────────┐        │
+│  │ Prior   │           │                 │           │  Conceptual │        │
+│  │Knowledge│──────────▶│   LEARNING      │──────────▶│  Mastery    │        │
+│  └─────────┘           │   UNIT          │           └─────────────┘        │
+│                        │                 │                                  │
+│  ┌─────────┐           │  ┌───────────┐  │           ┌─────────────┐        │
+│  │Cognitive│──────────▶│  │ Concept   │  │──────────▶│  Skill      │        │
+│  │Readiness│           │  │ Exposure  │  │           │  Development│        │
+│  └─────────┘           │  └─────┬─────┘  │           └─────────────┘        │
+│                        │        │        │                                  │
+│  ┌─────────┐           │        ▼        │           ┌─────────────┐        │
+│  │Learning │──────────▶│  ┌───────────┐  │──────────▶│  Problem    │        │
+│  │ Style   │           │  │ Practice  │  │           │  Solving    │        │
+│  └─────────┘           │  │ & Apply   │  │           │  Ability    │        │
+│                        │  └─────┬─────┘  │           └─────────────┘        │
+│                        │        │        │                                  │
+│                        │        ▼        │           ┌─────────────┐        │
+│                        │  ┌───────────┐  │──────────▶│  Assessment │        │
+│                        │  │Assessment │  │           │  Score      │        │
+│                        │  │ & Feedback│  │           └─────────────┘        │
+│                        │  └───────────┘  │                                  │
+│                        │                 │                                  │
+│                        └─────────────────┘                                  │
+│                                │                                            │
+│                                ▼                                            │
+│                        ┌─────────────────┐                                  │
+│                        │  FEEDBACK LOOP  │                                  │
+│                        │  (Remediation/  │                                  │
+│                        │   Advancement)  │                                  │
+│                        └─────────────────┘                                  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
+
+## C.7 SYSTEMS ENGINEERING BLOCKS - TRIGONOMETRY
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                    TRIGONOMETRY SYSTEM ARCHITECTURE                         │
+├─────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│  ╔═══════════════════════════════════════════════════════════════════════╗  │
+│  ║                        INPUT SUBSYSTEM                                ║  │
+│  ╠═══════════════════════════════════════════════════════════════════════╣  │
+│  ║  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐                  ║  │
+│  ║  │  Right      │   │  Angle      │   │  Ratio      │                  ║  │
+│  ║  │  Triangle   │   │  Measure    │   │  Concept    │                  ║  │
+│  ║  └──────┬──────┘   └──────┬──────┘   └──────┬──────┘                  ║  │
+│  ╚════════╪══════════════════╪══════════════════╪════════════════════════╝  │
+│           │                  │                  │                           │
+│           └──────────────────┼──────────────────┘                           │
+│                              │                                              │
+│                              ▼                                              │
+│  ╔═══════════════════════════════════════════════════════════════════════╗  │
+│  ║                      PROCESSING CORE                                  ║  │
+│  ╠═══════════════════════════════════════════════════════════════════════╣  │
+│  ║                                                                       ║  │
+│  ║  ┌─────────────────────────────────────────────────────────────────┐  ║  │
+│  ║  │                   BASIC RATIOS MODULE                           │  ║  │
+│  ║  │  ┌─────────┐   ┌─────────┐   ┌─────────┐                        │  ║  │
+│  ║  │  │  sin θ  │   │  cos θ  │   │  tan θ  │                        │  ║  │
+│  ║  │  └─────────┘   └─────────┘   └─────────┘                        │  ║  │
+│  ║  │  ┌─────────┐   ┌─────────┐   ┌─────────┐                        │  ║  │
+│  ║  │  │  csc θ  │   │  sec θ  │   │  cot θ  │                        │  ║  │
+│  ║  │  └─────────┘   └─────────┘   └─────────┘                        │  ║  │
+│  ║  └─────────────────────────────────────────────────────────────────┘  ║  │
+│  ║                              │                                        ║  │
+│  ║                              ▼                                        ║  │
+│  ║  ┌─────────────────────────────────────────────────────────────────┐  ║  │
+│  ║  │                   IDENTITIES MODULE                             │  ║  │
+│  ║  │  ┌─────────────────────┐   ┌─────────────────────────┐          │  ║  │
+│  ║  │  │ Pythagorean:        │   │ Compound:               │          │  ║  │
+│  ║  │  │ sin²θ + cos²θ = 1   │   │ sin(A±B), cos(A±B)      │          │  ║  │
+│  ║  │  └─────────────────────┘   └─────────────────────────┘          │  ║  │
+│  ║  │  ┌─────────────────────┐   ┌─────────────────────────┐          │  ║  │
+│  ║  │  │ Double Angle:       │   │ Half Angle:             │          │  ║  │
+│  ║  │  │ sin 2A, cos 2A      │   │ sin(A/2), cos(A/2)      │          │  ║  │
+│  ║  │  └─────────────────────┘   └─────────────────────────┘          │  ║  │
+│  ║  └─────────────────────────────────────────────────────────────────┘  ║  │
+│  ║                              │                                        ║  │
+│  ╚══════════════════════════════╪════════════════════════════════════════╝  │
+│                                 │                                           │
+│                                 ▼                                           │
+│  ╔═══════════════════════════════════════════════════════════════════════╗  │
+│  ║                       OUTPUT SUBSYSTEM                                ║  │
+│  ╠═══════════════════════════════════════════════════════════════════════╣  │
+│  ║  ┌─────────────┐   ┌─────────────┐   ┌─────────────┐                  ║  │
+│  ║  │  Heights &  │   │  Equation   │   │  Inverse    │                  ║  │
+│  ║  │  Distances  │   │  Solving    │   │  Functions  │                  ║  │
+│  ║  └─────────────┘   └─────────────┘   └─────────────┘                  ║  │
+│  ╚═══════════════════════════════════════════════════════════════════════╝  │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
